@@ -1,8 +1,8 @@
 package com.retailease.customer.entity;
 
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -26,12 +26,12 @@ public class Customer {
     String email;
     @Column(name = "phone")
     String phone;
-    /*@Column(name = "address")
+    @Column(name = "address")
     String address;
     @Column(name = "username")
     String username;
     @Column(name = "password")
-    String password;*/
+    String password;
     @Column(name = "registration_date")
     Date registrationDate;
 }

@@ -1,8 +1,7 @@
 package com.retailease.invoiceItem.entity;
 
+import jakarta.persistence.*;
 import lombok.*;
-
-import javax.persistence.*;
 
 @Entity
 @Table(name = "invoice_items")

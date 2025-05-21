@@ -1,9 +1,8 @@
 package com.retailease.product.entities;
 
 
+import jakarta.persistence.*;
 import lombok.*;
-
-import javax.persistence.*;
 
 @Entity
 @Table(name = "products")

@@ -1,11 +1,7 @@
 package com.retailease.transactionItem.entity;
 
+import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.context.annotation.Primary;
-
-import javax.persistence.*;
-import java.util.Date;
-
 @Entity
 @Table(name = "transaction_items")
 @Getter
